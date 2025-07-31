@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - Book's reviews</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header>
+    <h1>📚 Book's reviews Blog</h1>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./new-post.html">New review</a>
+      <a href="./post-read.html">Post edit</a>
+      <a href="./login.html" id="loginLink">Login</a>
+      <button id="logoutBtn" style="display: none">Exit</button>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Book list</h2>
+      <table>
+        <thead>
+          <tr><th>Name</th><th>Auth</th><th>Genre</th></tr>
+        </thead>
+        <tbody id="bookList"></tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Reviews</h2>
+      <div id="reviewsContainer"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Book Blog</p>
+  </footer>
+
+ <script src="./script.js"></script>
+</body>
+</html>
